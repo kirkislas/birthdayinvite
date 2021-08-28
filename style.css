@@ -1,0 +1,90 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  text-align: center;
+  height: auto;
+  color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+img {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+body {
+  background-color: #000000;
+}
+h2 {
+  color: #fff;
+  margin-left: 25px;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+p {
+  color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+.message {
+  margin-top: 30px;
+}
+button {
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  padding: 7px 20px !important;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid #fff;
+  transition: 0.8s;
+  position: relative;
+  display: inline-flex;
+}
+button:hover {
+  background-color: #000000;
+  cursor: pointer;
+  border: 3px solid #000000;
+}
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+.button-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+html {
+  scroll-behavior: smooth;
+}
+label {
+  color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+form {
+  margin-top : 50px;
+}
+input {
+  height: 30px;
+  width: 175px;
+  margin: auto;
+  display: block;
+}
+.rsvp {
+  margin-top: 200px;
+}
+h3 {
+  text-align: center;
+  margin-top: 25px;
+  color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+#number-input {
+  width: 100px;
+}
+#name {
+  width: 100px;
+}
+footer {
+  color: #fff;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 13px;
+}

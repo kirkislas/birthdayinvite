@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Kirk's 21st</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <script>
+      function submitForm() {
+        document.getElementById("form_id").submit();
+      }
+    </script>
+  </head>
+  <body>
+    <div class="main" id="section1">
+      <h1>KIRK'S 21ST</h1>
+      <div>
+        <img src="/static/aliens.jpg">
+      </div>
+      <h1>YOU'RE INVITED</h1>
+      <h2>When?</h2>
+      <p>- September 04, 2021 at 5:00 pm</p>
+      <h2>Where?</h2>
+      <p>- CA, 90660, USA, North America, Earth, Milky Way</p>
+      <h1 class="message">COME THIRSTY</h1>
+      <div class="button-wrapper">
+        <button>
+          <a href="#section2">RSVP HERE</a>
+        </button>
+      </div>
+    </div>
+    <div class="main" id="section2">
+      <div>
+        <h1 class="rsvp">RSVP</h1>
+        <form action="/submit" method="POST" id="form_id">
+          <h3>your name</h3>
+          <input type="text" id="name" name="name">
+          <h3># of people</h3>
+          <input type="number" id="number-input" name="number-input" min="1" max="10">
+        </form>
+        <div class="button-wrapper">
+          <button type="submit" formmethod="POST" onclick="submitForm()">
+            <a href="/submit">SUBMIT</a>
+          </button>
+        </div>
+      </div>
+
+  </body>
+  <footer>    
+    &copy;KIRK
+  </footer>
+</html>

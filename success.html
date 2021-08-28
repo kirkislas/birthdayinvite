@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Success!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+  </head>
+  <body>
+    <br>
+    <br>
+    <h1>{{data}}</h1>
+    <h1>You have successfully submitted your response!</h1>
+    <br>
+    <div class="button-wrapper">
+      <button type="submit" formmethod="POST" onclick="submitForm()">
+        <a href="/">Back To Invitation</a>
+      </button>
+    </div>
+  </body>
+</html>
